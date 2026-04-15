@@ -13,13 +13,13 @@ This repository is a customized academic website built on top of the `AcadHomepa
 
 ## Deployment Steps
 
-1. Create or rename your GitHub repository to `F90Silenteagle.github.io`.
+1. Create or rename your GitHub repository to `yecao02.github.io`.
 2. Copy this site into that repository.
 3. Push the `main` branch to GitHub.
 4. Open `Settings -> Pages`.
 5. Set the publishing source to `Deploy from a branch`.
 6. Select `main` and `/(root)`.
-7. Wait for GitHub Pages to publish the site at `https://f90silenteagle.github.io/`.
+7. Wait for GitHub Pages to publish the site at `https://yecao02.github.io/`.
 
 ## Daily Editing Workflow
 

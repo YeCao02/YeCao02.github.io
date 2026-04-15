@@ -149,15 +149,26 @@ a:hover {
 
 .profile_box {
     border: 1px solid var(--brand-border);
-    border-radius: 18px;
-    padding: 1.25rem;
-    background: linear-gradient(180deg, #ffffff 0%, #f8fbf9 100%);
-    box-shadow: 0 10px 26px rgba(18, 42, 32, 0.06);
+    border-radius: 24px;
+    padding: 1.3rem 1.15rem 1.2rem;
+    background:
+        radial-gradient(circle at top right, rgba(199, 146, 62, 0.14), transparent 30%),
+        linear-gradient(180deg, #ffffff 0%, #f8fbf9 100%);
+    box-shadow: 0 16px 32px rgba(18, 42, 32, 0.08);
 }
 
 .author__avatar {
-    border-radius: 18px;
+    border-radius: 22px;
     overflow: hidden;
+}
+
+.author__content {
+    margin-bottom: 0.6rem;
+}
+
+.author__name {
+    font-size: 2rem;
+    letter-spacing: -0.03em;
 }
 
 .page__content h2 {
@@ -187,6 +198,7 @@ a:hover {
 .section-lead {
     color: var(--brand-muted);
     margin-bottom: 1.3rem;
+    max-width: 52rem;
 }
 
 .tag-list {
@@ -217,26 +229,6 @@ a:hover {
     background-color: var(--brand-green-soft);
 }
 
-.project-grid {
-    display: grid;
-    gap: 1rem;
-    margin-top: 1rem;
-}
-
-.project-card {
-    padding: 1.2rem 1.15rem;
-    border: 1px solid var(--brand-border);
-    border-radius: 18px;
-    background: #ffffff;
-    box-shadow: 0 10px 24px rgba(18, 42, 32, 0.05);
-}
-
-.project-card h3 {
-    margin-top: 0;
-    margin-bottom: 0.45rem;
-    color: var(--brand-green);
-}
-
 .project-meta {
     color: var(--brand-muted);
     font-size: 0.92rem;
@@ -244,7 +236,118 @@ a:hover {
 }
 
 @include breakpoint($medium) {
-    .project-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+.project-list {
+        gap: 1.15rem;
+    }
+}
+
+.author__urls {
+    margin-top: 0.35rem;
+}
+
+.author__urls li {
+    white-space: normal;
+    margin-bottom: 0.65rem;
+}
+
+.author__urls li:last-child {
+    margin-bottom: 0;
+}
+
+.author__urls a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-bottom: 0;
+}
+
+.author__meta-item {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 0.45rem;
+}
+
+.author__meta-item i {
+    min-width: 1rem;
+    margin-top: 0.25rem;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.project-strip {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid var(--brand-border);
+    border-radius: 24px;
+    background: linear-gradient(180deg, #ffffff 0%, #fbfcfb 100%);
+    box-shadow: 0 12px 28px rgba(18, 42, 32, 0.06);
+}
+
+.project-strip__media {
+    min-height: 140px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 1.1rem 1.15rem;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.05;
+}
+
+.project-strip__media--forest {
+    background:
+        radial-gradient(circle at top right, rgba(255, 255, 255, 0.16), transparent 32%),
+        linear-gradient(135deg, #173328 0%, #355f4c 100%);
+}
+
+.project-strip__media--sand {
+    background:
+        radial-gradient(circle at top right, rgba(255, 255, 255, 0.16), transparent 32%),
+        linear-gradient(135deg, #7d6330 0%, #c7923e 100%);
+}
+
+.project-strip__media--sage {
+    background:
+        radial-gradient(circle at top right, rgba(255, 255, 255, 0.16), transparent 32%),
+        linear-gradient(135deg, #49685d 0%, #82a193 100%);
+}
+
+.project-strip__media--ink {
+    background:
+        radial-gradient(circle at top right, rgba(255, 255, 255, 0.16), transparent 32%),
+        linear-gradient(135deg, #21332e 0%, #46544f 100%);
+}
+
+.project-strip__body {
+    padding: 1.15rem 1.2rem 1.25rem;
+}
+
+.project-strip__body h3 {
+    margin-top: 0;
+    margin-bottom: 0.45rem;
+    color: var(--brand-green);
+}
+
+@include breakpoint($medium) {
+    .project-strip {
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .project-strip__media {
+        flex: 0 0 220px;
+        min-height: auto;
+    }
+
+    .project-strip__body {
+        flex: 1 1 auto;
     }
 }

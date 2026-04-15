@@ -16,14 +16,11 @@
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
-      {% if site.description %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
-      {% endif %}
       {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+        <li><span class="author__meta-item"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i><span>{{ author.location }}</span></span></li>
       {% endif %}
       {% if author.employer %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
+        <li><span class="author__meta-item"><i class="fa fa-fw fa-university" aria-hidden="true"></i><span>{{ author.employer }}</span></span></li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
@@ -35,7 +32,7 @@
         <li><a href="{{ author.cv }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> CV</a></li>
       {% endif %}
       {% if author.wechat %}
-        <li><i class="fas fa-fw fa-comments" aria-hidden="true"></i> WeChat: {{ author.wechat }}</li>
+        <li><span class="author__meta-item"><i class="fas fa-fw fa-comments" aria-hidden="true"></i><span>WeChat: {{ author.wechat }}</span></span></li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>

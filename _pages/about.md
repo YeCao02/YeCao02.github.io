@@ -15,7 +15,7 @@ redirect_from:
 <p class="hero-actions">
   <a class="btn btn--primary" href="/files/ye-cao-cv.pdf">Download CV</a>
   <a class="btn btn--inverse" href="/publications/">View Publications</a>
-  <a class="btn btn--light-outline" href="https://github.com/F90Silenteagle">GitHub</a>
+  <a class="btn btn--light-outline" href="https://github.com/YeCao02">GitHub</a>
 </p>
 
 <p class="section-lead">Current topics in my work include child-friendly city assessment, street spatial quality, metropolitan integration in the Guangzhou-Foshan region, and interpretable uses of large models in planning research.</p>
@@ -88,27 +88,47 @@ Published work on ecosystem service valuation under changing administrative boun
 
 <p class="section-lead">My projects combine urban data science, planning analysis, and human-centered evaluation methods, with a focus on how social groups and spatial systems interact across multiple scales.</p>
 
-<div class="project-grid">
-  <div class="project-card">
-    <h3>Cross-Boundary Mobility and Lifestyles in Guangzhou-Foshan</h3>
-    <p class="project-meta">2025-present | M.Sc. thesis project</p>
-    <p>Uses large-scale mobile phone mobility and user-profile data to test whether Guangzhou and Foshan operate as an integrated economic-geographic unit and to characterize cross-boundary living patterns.</p>
-  </div>
-  <div class="project-card">
-    <h3>Multi-Stakeholder Spatial Cognition in Urban Renewal</h3>
-    <p class="project-meta">2023-2025 | Supervisor: Prof. Min Wang</p>
-    <p>Combines eye-tracking, photo ratings, and interviews to compare how planners and the public perceive landscape change along the Liede River in Guangzhou.</p>
-  </div>
-  <div class="project-card">
-    <h3>Public Service Accessibility and High-Tech Firm Distribution in Shenzhen</h3>
-    <p class="project-meta">2023-2025 | Outstanding undergraduate thesis</p>
-    <p>Investigates how public service accessibility relates to technology-oriented firm location across multiple spatial scales using network accessibility measures and the Robust Geographical Detector.</p>
-  </div>
-  <div class="project-card">
-    <h3>Urban Planning and Strategic Consulting Projects</h3>
-    <p class="project-meta">2024-2025 | Applied planning practice</p>
-    <p>Contributed to strategic planning studies for Zhuhai Nanwan, the Golden Inner Bay conceptual plan, Ganzhou central urban area, and Danzao Town in Foshan using mobility, business, and POI data.</p>
-  </div>
+<div class="project-list">
+  <article class="project-strip">
+    <div class="project-strip__media project-strip__media--forest">
+      <span>Mobility<br>Data</span>
+    </div>
+    <div class="project-strip__body">
+      <h3>Cross-Boundary Mobility and Lifestyles in Guangzhou-Foshan</h3>
+      <p class="project-meta">2025-present | M.Sc. thesis project</p>
+      <p>Uses large-scale mobile phone mobility and user-profile data to test whether Guangzhou and Foshan operate as an integrated economic-geographic unit and to characterize cross-boundary living patterns.</p>
+    </div>
+  </article>
+  <article class="project-strip">
+    <div class="project-strip__media project-strip__media--sand">
+      <span>Eye-tracking<br>Perception</span>
+    </div>
+    <div class="project-strip__body">
+      <h3>Multi-Stakeholder Spatial Cognition in Urban Renewal</h3>
+      <p class="project-meta">2023-2025 | Supervisor: Prof. Min Wang</p>
+      <p>Combines eye-tracking, photo ratings, and interviews to compare how planners and the public perceive landscape change along the Liede River in Guangzhou.</p>
+    </div>
+  </article>
+  <article class="project-strip">
+    <div class="project-strip__media project-strip__media--sage">
+      <span>Firm<br>Location</span>
+    </div>
+    <div class="project-strip__body">
+      <h3>Public Service Accessibility and High-Tech Firm Distribution in Shenzhen</h3>
+      <p class="project-meta">2023-2025 | Outstanding undergraduate thesis</p>
+      <p>Investigates how public service accessibility relates to technology-oriented firm location across multiple spatial scales using network accessibility measures and the Robust Geographical Detector.</p>
+    </div>
+  </article>
+  <article class="project-strip">
+    <div class="project-strip__media project-strip__media--ink">
+      <span>Planning<br>Practice</span>
+    </div>
+    <div class="project-strip__body">
+      <h3>Urban Planning and Strategic Consulting Projects</h3>
+      <p class="project-meta">2024-2025 | Applied planning practice</p>
+      <p>Contributed to strategic planning studies for Zhuhai Nanwan, the Golden Inner Bay conceptual plan, Ganzhou central urban area, and Danzao Town in Foshan using mobility, business, and POI data.</p>
+    </div>
+  </article>
 </div>
 
 <span class='anchor' id='talks'></span>
@@ -148,6 +168,6 @@ Published work on ecosystem service valuation under changing administrative boun
 ## Contact
 
 - Email: [arcaoye@mail.scut.edu.cn](mailto:arcaoye@mail.scut.edu.cn)
-- GitHub: [F90Silenteagle](https://github.com/F90Silenteagle)
+- GitHub: [YeCao02](https://github.com/YeCao02)
 - WeChat: `F90SilentEagle`
 - CV: [Download PDF](/files/ye-cao-cv.pdf)
