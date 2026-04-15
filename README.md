@@ -29,7 +29,7 @@ Edit `_config.yml` when you want to change:
 
 - site title and description
 - affiliation and location
-- email, GitHub, WeChat, CV link
+- email, GitHub, CV link
 - avatar image path
 
 ### Update homepage sections

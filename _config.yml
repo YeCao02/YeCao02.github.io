@@ -11,7 +11,7 @@ baidu_site_verification  :
 
 author:
   name             : "Ye Cao"
-  avatar           : "images/ye-cao-avatar.svg"
+  avatar           : "images/myself.png"
   bio              : "M.Sc. Student in Urban and Rural Planning"
   location         : "Guangzhou, China"
   employer         : "School of Architecture, SCUT"
@@ -46,7 +46,6 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  wechat           : "F90SilentEagle"
   cv               : "/files/ye-cao-cv.pdf"
 
 include:

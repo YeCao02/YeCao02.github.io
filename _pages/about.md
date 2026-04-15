@@ -169,5 +169,4 @@ Published work on ecosystem service valuation under changing administrative boun
 
 - Email: [arcaoye@mail.scut.edu.cn](mailto:arcaoye@mail.scut.edu.cn)
 - GitHub: [YeCao02](https://github.com/YeCao02)
-- WeChat: `F90SilentEagle`
 - CV: [Download PDF](/files/ye-cao-cv.pdf)
