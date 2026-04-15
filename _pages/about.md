@@ -3,56 +3,151 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<div class="hero-intro">
+  <p>I am an M.Sc. student in Urban and Rural Planning at South China University of Technology. My research sits at the intersection of urban perception, spatial analysis, cross-boundary mobility, and artificial intelligence for planning. I study how people experience streets, neighborhoods, and metropolitan regions, and how computational methods can support more human-centered urban analysis.</p>
+</div>
 
-<span class='anchor' id='about-me'></span>
+<p class="hero-actions">
+  <a class="btn btn--primary" href="/files/ye-cao-cv.pdf">Download CV</a>
+  <a class="btn btn--inverse" href="/publications/">View Publications</a>
+  <a class="btn btn--light-outline" href="https://github.com/F90Silenteagle">GitHub</a>
+</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+<p class="section-lead">Current topics in my work include child-friendly city assessment, street spatial quality, metropolitan integration in the Guangzhou-Foshan region, and interpretable uses of large models in planning research.</p>
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+<span class='anchor' id='research-interests'></span>
 
+## Research Interests
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<div class="tag-list">
+  <span>Urban Perception</span>
+  <span>Child-Friendly Cities</span>
+  <span>Cross-Boundary Mobility</span>
+  <span>Spatial Analysis</span>
+  <span>AI for Planning</span>
+  <span>Street Spatial Quality</span>
+</div>
 
-# 📝 Publications 
+<span class='anchor' id='selected-publications'></span>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+## Selected Publications
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025 Conference Paper</div><img src='/images/papers/street-quality.svg' alt='Street quality research cover' width='100%'></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+### [Influencing factors and planning strategies for street spatial quality from dual perspectives: A case study of Shenzhen's Nanshan-Bao'an area](https://doi.org/10.26914/c.cnkihy.2025.047913)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+Yudong Lin, **Ye Cao**, and Zongcai Wei
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+*Proceedings of the 2025 China Urban Planning Annual Conference, 2025*
+
+Co-first authored conference paper combining street-view image sampling, resident paired-comparison surveys, semantic segmentation, ArcGIS Pro, and machine-learning-based label extraction to identify built-environment drivers of street quality in Shenzhen.
+
+[**DOI**](https://doi.org/10.26914/c.cnkihy.2025.047913) | [**All Publications**](/publications/)
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='/images/papers/qwen3-vl.svg' alt='Multimodal model and child perception research cover' width='100%'></div></div>
+<div class='paper-box-text' markdown="1">
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+### Can multimodal large language models approximate children's urban perceptions? Evaluating Qwen3-VL for child-friendly city assessment
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+**Ye Cao**, Yuxin Gao, and Sophie Hadfield-Hill*
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+*Submitted to Computers, Environment and Urban Systems*
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+This manuscript evaluates whether multimodal large language models can approximate children's urban perceptions of child-friendly streetscapes in Shenzhen, using ratings from 158 children across 220 child-centered street-view images.
+
+[**Project Summary**](/publications/)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2023 Journal Article</div><img src='/images/papers/ecosystem-services.svg' alt='Ecosystem service values research cover' width='100%'></div></div>
+<div class='paper-box-text' markdown="1">
+
+### [Assessments of Ecosystem Service Values in a Region with Frequent Administrative Division Adjustments: A Case Study of Nansha District](https://doi.org/10.13284/j.cnki.rddl.003707)
+
+**Ye Cao**, Hong Chen*, Hongzhang Nie, Zhengjie Shao, Chang He, Yungang Liu, and Huiming Huang
+
+*Tropical Geography, 43*(7), 2023*
+
+Published work on ecosystem service valuation under changing administrative boundaries, focusing on Nansha District and the policy implications of spatial adjustment.
+
+[**DOI**](https://doi.org/10.13284/j.cnki.rddl.003707)
+</div>
+</div>
+
+<span class='anchor' id='projects'></span>
+
+## Research Projects
+
+<p class="section-lead">My projects combine urban data science, planning analysis, and human-centered evaluation methods, with a focus on how social groups and spatial systems interact across multiple scales.</p>
+
+<div class="project-grid">
+  <div class="project-card">
+    <h3>Cross-Boundary Mobility and Lifestyles in Guangzhou-Foshan</h3>
+    <p class="project-meta">2025-present | M.Sc. thesis project</p>
+    <p>Uses large-scale mobile phone mobility and user-profile data to test whether Guangzhou and Foshan operate as an integrated economic-geographic unit and to characterize cross-boundary living patterns.</p>
+  </div>
+  <div class="project-card">
+    <h3>Multi-Stakeholder Spatial Cognition in Urban Renewal</h3>
+    <p class="project-meta">2023-2025 | Supervisor: Prof. Min Wang</p>
+    <p>Combines eye-tracking, photo ratings, and interviews to compare how planners and the public perceive landscape change along the Liede River in Guangzhou.</p>
+  </div>
+  <div class="project-card">
+    <h3>Public Service Accessibility and High-Tech Firm Distribution in Shenzhen</h3>
+    <p class="project-meta">2023-2025 | Outstanding undergraduate thesis</p>
+    <p>Investigates how public service accessibility relates to technology-oriented firm location across multiple spatial scales using network accessibility measures and the Robust Geographical Detector.</p>
+  </div>
+  <div class="project-card">
+    <h3>Urban Planning and Strategic Consulting Projects</h3>
+    <p class="project-meta">2024-2025 | Applied planning practice</p>
+    <p>Contributed to strategic planning studies for Zhuhai Nanwan, the Golden Inner Bay conceptual plan, Ganzhou central urban area, and Danzao Town in Foshan using mobility, business, and POI data.</p>
+  </div>
+</div>
+
+<span class='anchor' id='talks'></span>
+
+## Talks and Presentations
+
+- **2026 AAG Annual Meeting**. Oral presentation: *Aligning Artificial Intelligence with Children's Urban Perspectives: Expanding Participation in Child-Friendly Urban Futures*.
+- **2025 Annual Conference on Behavioral Geography and Health Geography in China**. Oral presentation: *Characterizing Cross-Boundary Activity Patterns between Guangzhou and Foshan Using Mobile Phone Data*.
+- **2025 Spring Annual Meeting of the Geographical Society of China**. Oral presentation: *Multi-Scale Public Service Provision and High-Tech Firm Location Choice: A Geographical Detector Analysis of Shenzhen*.
+
+<span class='anchor' id='awards'></span>
+
+## Awards
+
+- **Outstanding Undergraduate Thesis**, South China Normal University, 2024.
+- **First Prize (Provincial), 17th Challenge Cup Guangdong Undergraduate Academic Science and Technology Works Competition**, 2024. Research report: *Exploration and Practice of Chinese-Style Modernization Based on Ecological Priority in Nansha District, Guangzhou*.
+
+<span class='anchor' id='education'></span>
+
+## Education
+
+- **South China University of Technology**, 2024-present. M.Sc. in Urban and Rural Planning (GPA: 3.88/5.00). Advisor: [Prof. Qifeng Yuan](https://www2.scut.edu.cn/architecture/2023/0601/c35345a505550/page.htm).
+- **South China Normal University**, 2020-2024. B.Sc. in Human Geography and Urban-Rural Planning (GPA: 3.92/5.00, Top 5.7%). Advisor: [Assistant Professor Hong Chen](https://faculty.scnu.edu.cn/hongchen/en).
+
+<span class='anchor' id='skills'></span>
+
+## Skills
+
+- **Spatial analysis:** ArcGIS, QGIS, GeoDa, ENVI, GEE
+- **Data science and coding:** Python, R, SQLite, Codex, WSL, Docker, SLURM
+- **Social research:** Questionnaire design and quantitative analysis, semi-structured interviews
+- **Eye-tracking analysis:** Tobii Pro Lab
+- **Additional:** Two granted utility model patents; ecological and aviation photography
+
+<span class='anchor' id='contact'></span>
+
+## Contact
+
+- Email: [arcaoye@mail.scut.edu.cn](mailto:arcaoye@mail.scut.edu.cn)
+- GitHub: [F90Silenteagle](https://github.com/F90Silenteagle)
+- WeChat: `F90SilentEagle`
+- CV: [Download PDF](/files/ye-cao-cv.pdf)

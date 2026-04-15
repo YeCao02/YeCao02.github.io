@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="title desc">
+  <title id="title">Ecosystem service values cover</title>
+  <desc id="desc">An abstract cover image for ecosystem service valuation research.</desc>
+  <rect width="800" height="480" rx="24" fill="#eff5f1"/>
+  <rect x="54" y="58" width="692" height="364" rx="28" fill="#ffffff"/>
+  <path d="M122 330c64-70 118-110 162-120 57-14 101 8 147 8 68 0 111-67 169-67 30 0 67 11 110 34v139H122z" fill="#c9ddcf"/>
+  <path d="M122 346c79-52 150-78 215-78 79 0 116 31 186 31 53 0 115-17 187-52v103H122z" fill="#90b19f"/>
+  <circle cx="598" cy="138" r="34" fill="#c7923e"/>
+  <path d="M156 176h162" stroke="#1f4635" stroke-width="12" stroke-linecap="round"/>
+  <path d="M156 208h116" stroke="#1f4635" stroke-width="12" stroke-linecap="round"/>
+  <text x="156" y="394" font-family="Georgia, serif" font-size="44" fill="#173328">Ecosystem service values</text>
+</svg>

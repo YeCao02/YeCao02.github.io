@@ -10,7 +10,7 @@
  *
 */
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "vendor/breakpoint/breakpoint";
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
@@ -46,54 +46,58 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    border-bottom: 1px solid #d4dfd8;
+    padding: 1.9rem 0;
 
-    .paper-box-image{
+    .paper-box-image {
         justify-content: center;
         display: flex;
         width: 100%;
         order: 2;
+
         img {
             max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
+            border-radius: 18px;
+            border: 1px solid rgba(31, 70, 53, 0.08);
+            box-shadow: 0 14px 32px rgba(18, 42, 32, 0.11);
             object-fit: cover;
         }
     }
-    
-    .paper-box-text{
+
+    .paper-box-text {
         max-width: 100%;
         order: 1;
+
+        h3 {
+            margin-top: 0;
+            margin-bottom: 0.55rem;
+        }
     }
-    
+
     @include breakpoint($medium) {
-        .paper-box-image{
+        .paper-box-image {
             justify-content: left;
             min-width: 200px;
             max-width: 40%;
             order: 1;
         }
-        
-        .paper-box-text{
+
+        .paper-box-text {
             justify-content: left;
             padding-left: 2em;
             max-width: 60%;
             order: 2;
         }
-
     }
-
-
 }
 
 $scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
+h1:before, .anchor:before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 0;
+    height: $scroll_offset;
     margin-top: -$scroll_offset;
 }
 
@@ -104,6 +108,143 @@ h1:before, .anchor:before {
     margin-top: .5em;
     margin-left: -.5em;
     color: white;
-    background-color: #00369f;
+    background-color: #1f4635;
     font-size: .8em;
+}
+
+:root {
+    --brand-ink: #173328;
+    --brand-green: #1f4635;
+    --brand-green-soft: #edf4ef;
+    --brand-gold: #c7923e;
+    --brand-border: #d4dfd8;
+    --brand-muted: #5c6f66;
+}
+
+body {
+    color: var(--brand-ink);
+}
+
+a {
+    color: var(--brand-green);
+}
+
+a:hover {
+    color: #2c6a52;
+}
+
+.masthead {
+    border-bottom: 1px solid var(--brand-border);
+    background: rgba(255, 255, 255, 0.96);
+}
+
+.site-title,
+.greedy-nav a {
+    color: var(--brand-ink);
+}
+
+.author__bio {
+    color: var(--brand-muted);
+}
+
+.profile_box {
+    border: 1px solid var(--brand-border);
+    border-radius: 18px;
+    padding: 1.25rem;
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbf9 100%);
+    box-shadow: 0 10px 26px rgba(18, 42, 32, 0.06);
+}
+
+.author__avatar {
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.page__content h2 {
+    color: var(--brand-green);
+    margin-top: 2.4rem;
+}
+
+.hero-intro {
+    padding: 1.45rem 1.6rem;
+    border: 1px solid var(--brand-border);
+    border-radius: 22px;
+    background:
+        radial-gradient(circle at top right, rgba(199, 146, 62, 0.14), transparent 36%),
+        linear-gradient(135deg, #ffffff 0%, #f5faf7 100%);
+    box-shadow: 0 14px 30px rgba(18, 42, 32, 0.08);
+}
+
+.hero-intro p {
+    margin: 0;
+    font-size: 1.08rem;
+}
+
+.hero-actions {
+    margin: 1rem 0 1.1rem;
+}
+
+.section-lead {
+    color: var(--brand-muted);
+    margin-bottom: 1.3rem;
+}
+
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+}
+
+.tag-list span {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 999px;
+    border: 1px solid var(--brand-border);
+    background: var(--brand-green-soft);
+    color: var(--brand-green);
+    padding: 0.35rem 0.85rem;
+    font-size: 0.92rem;
+    font-weight: 600;
+}
+
+.btn--light-outline {
+    border: 1px solid var(--brand-green);
+    color: var(--brand-green) !important;
+    background-color: transparent;
+}
+
+.btn--light-outline:hover {
+    background-color: var(--brand-green-soft);
+}
+
+.project-grid {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.project-card {
+    padding: 1.2rem 1.15rem;
+    border: 1px solid var(--brand-border);
+    border-radius: 18px;
+    background: #ffffff;
+    box-shadow: 0 10px 24px rgba(18, 42, 32, 0.05);
+}
+
+.project-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.45rem;
+    color: var(--brand-green);
+}
+
+.project-meta {
+    color: var(--brand-muted);
+    font-size: 0.92rem;
+    margin-bottom: 0.65rem;
+}
+
+@include breakpoint($medium) {
+    .project-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }

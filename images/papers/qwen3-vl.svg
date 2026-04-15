@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="title desc">
+  <title id="title">Qwen3-VL and child perception cover</title>
+  <desc id="desc">An abstract cover image for multimodal urban perception research.</desc>
+  <rect width="800" height="480" rx="24" fill="#f4f0e7"/>
+  <rect x="58" y="58" width="684" height="364" rx="28" fill="#ffffff"/>
+  <rect x="108" y="112" width="212" height="224" rx="20" fill="#1f4635"/>
+  <rect x="354" y="112" width="338" height="98" rx="18" fill="#edf4ef"/>
+  <rect x="354" y="232" width="338" height="104" rx="18" fill="#f8f3e8"/>
+  <circle cx="182" cy="186" r="36" fill="#c7923e"/>
+  <path d="M140 266c18-28 42-42 72-42 30 0 54 14 72 42" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round"/>
+  <path d="M394 152h258" stroke="#6f8f80" stroke-width="12" stroke-linecap="round"/>
+  <path d="M394 182h184" stroke="#6f8f80" stroke-width="12" stroke-linecap="round"/>
+  <path d="M394 272h258" stroke="#c7923e" stroke-width="12" stroke-linecap="round"/>
+  <path d="M394 302h220" stroke="#c7923e" stroke-width="12" stroke-linecap="round"/>
+  <text x="108" y="384" font-family="Georgia, serif" font-size="44" fill="#173328">Child-friendly AI evaluation</text>
+</svg>
